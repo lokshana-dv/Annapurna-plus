@@ -35,9 +35,8 @@ Prerequisites
 Node.js v18 or higher
 npm v8 or higher
 
-Installation
-bash# Clone the repository
-git clone https://github.com/lokshana-dv/Annapurna-plus.git
+
+
 
 # Navigate to project folder
 cd Annapurna-plus/annapurna
@@ -47,11 +46,7 @@ npm install
 
 # Start development server
 npm run dev
-Open http://localhost:5173 in your browser.
-Demo Login
-Email:    demo@annapurna.org
-Password: demo1234
-Role:     Donor / Volunteer / NGO / Admin
+
 
 🌐 Deployment
 Netlify (Current)
@@ -59,41 +54,4 @@ The app is deployed on Netlify.
 Live URL: https://annapurna-plus.netlify.app/
 
 
-📁 Project Structure
-Annapurna-plus/
-└── annapurna/
-    ├── src/
-    │   ├── context/
-    │   │   └── AppContext.jsx      # Global state management
-    │   ├── components/
-    │   │   └── UI.jsx              # Reusable UI components
-    │   ├── pages/
-    │   │   ├── LoginPage.jsx       # Login & Register
-    │   │   ├── Dashboard.jsx       # Main dashboard
-    │   │   ├── FoodPages.jsx       # Donate, Request, Tracking
-    │   │   ├── VolunteerPages.jsx  # Volunteer, Routing, Leaderboard
-    │   │   └── OtherPages.jsx      # Analytics, Map, Profile, Admin, Feedback
-    │   ├── App.jsx                 # App shell (Topbar + Sidebar)
-    │   ├── Root.jsx                # Root with Context Provider
-    │   ├── index.css               # Global design system
-    │   └── main.jsx                # Entry point
-    ├── index.html
-    ├── package.json
-    ├── vite.config.js
-    └── README.md
 
-
-
-🤝 Contributing
-Contributions are welcome!
-bash# Fork the repo
-# Create your branch
-git checkout -b feature/AmazingFeature
-
-# Commit your changes
-git commit -m "Add AmazingFeature"
-
-# Push to branch
-git push origin feature/AmazingFeature
-
-# Open a Pull Request
